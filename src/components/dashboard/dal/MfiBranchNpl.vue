@@ -1,0 +1,17 @@
+<template>
+    <div>
+        <b-card class="text-right trend-child-card dal-card">
+            <div slot="header">
+                <b-row>
+                    <b-col class="c" cols="3">
+                        &nbsp;&nbsp;
+                    </b-col>
+                </b-row>
+            </div>
+            <highcharts v-if="Object.keys(data_info).length > 0" :options="chartOptions"></highcharts>
+            <NoFoundForChart :cssStyle="'135px auto'" v-else />
+        </b-card>
+        <mf-loader v-if="isLoad" />
+    </div>
+</template>
+<script src="@/components/services/dashboard/dal/MfiBranchNpl.js"></script>

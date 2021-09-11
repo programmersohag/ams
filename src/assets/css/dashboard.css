@@ -1,0 +1,70 @@
+div.card{
+    margin-bottom: 0.7rem;
+  }
+  div.card .card-header{
+      padding: 0.2rem 1.25rem;
+      font-size: 10px;
+    }
+  div.card .card-body{
+    padding: 0.5rem;
+  }
+  div.c-card>div{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .tab-content .tab-pane{
+    padding-bottom: 0.1rem;
+  }
+
+  hr{
+    border-top: dotted 1px #a9a9a9;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    padding: 0px;
+    margin: 10px 5px;
+  }
+  div.tab-content, div.tabs{
+    /*background-color: #2a2b3d;*/
+  }
+
+  .trend-child-card span{
+    float:left;
+    font-size: 11px;
+    margin-top: 2px;
+}
+.trend-child-card .form-group{
+    float: right;
+    margin-bottom: 0px;
+}
+.trend-child-card .form-control-sm{
+    background: #2a2b3d;
+    color: #fff;
+    font-size: 11px;
+    padding: 3px 0px;
+}
+
+div.trend-child-card, div.frequency-chart div.card, .tab-content .frequency-chart .card-body{
+  background-color: #edf0f1;
+  color: #fff;
+}
+/* div.frequency-chart div.card-body, div.single-chart div.card-body{
+  background-color: #302f3a;
+} */
+
+table.chart-table thead tr th{
+  background-color: #27272f;
+}
+table.chart-table{
+  color: #fff;
+}
+table.chart-table tbody tr:nth-child(odd){
+  background-color: #211d1d;
+}
+table.chart-table tbody tr:nth-child(even){
+  background-color: #3a3737;
+}
+.nav-tabs .nav-link{
+  font-size: 13px !important;
+  padding: 7px 5px;
+}

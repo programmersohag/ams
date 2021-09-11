@@ -1,0 +1,10 @@
+export const AUTH_REQUEST = "authRequest";
+export const AUTH_SUCCESS = "authSuccess";
+export const AUTH_ERROR = "authError";
+export const LOGOUT = "logout";
+export const SET_OPTIONS = "setOptions";
+export const SOFTWARE_DATE = "softwareDate";
+export const THEME_COLOR = "themeColor";
+export const THEME = "theme";
+export const AUTH_UPDATE = "authUpdate";
+export const IS_LOADING_SHOW = "is_loading_show";

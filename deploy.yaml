@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microfinnext-frontend
+spec:
+  selector:
+    matchLabels:
+      app: microfinnext-frontend
+  replicas: 2
+  strategy:
+      type: RollingUpdate
+      rollingUpdate:
+        maxSurge: 1
+        maxUnavailable: 1
+  template: # template for the pods
+    metadata:
+      labels:
+        app: microfinnext-frontend
+    spec:
+      containers:
+      - name: microfinnext-frontend
+        image: ${REPOSITORY_TAG}
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: microfinnext-frontend
+  labels:
+    app: microfinnext-frontend
+spec:
+  selector:
+    app: microfinnext-frontend
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30080
+

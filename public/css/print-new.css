@@ -1,0 +1,35 @@
+
+table{
+    width: 100%;
+    color: #23282c;
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+table tr th, table tr td {
+    border: 1px solid #c8ced3;
+}
+table tr th.action, table tr td.action{
+    display: none;
+}
+table tr td{
+    padding: 0.35rem;
+}
+#report_header_content {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#report_header_content h2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+#report_header_content p {
+    font-size: 11px;
+}
+@media print{
+    .break{
+        page-break-after:auto;
+        page-break-before: always;
+    }
+}

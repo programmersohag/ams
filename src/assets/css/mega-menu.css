@@ -1,0 +1,116 @@
+div.mega_menu {
+    position: absolute;
+    z-index: 999;
+    background: #060606;
+    width: 60%;
+    border-radius: 0px 0px 8px 0px;
+  }
+  div.mega_menu .search {
+    border-bottom: 1px solid #fff;
+    padding-top: 6px;
+    background-color: #000000c7;
+  }
+  div.mega_menu .search h6 {
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-size: 12px;
+  }
+  div.custom-breadcrumb h6 span{
+    color: #7ffffa;
+    cursor: pointer;
+  }
+  div.custom-breadcrumb h6 span .fa-home{
+    font-size: 14px;
+  }
+  div.mega_menu .search div.form-group {
+    margin-bottom: 6px;
+  }
+  div.mega_menu .first_menu {
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    padding-bottom: 6px;
+    margin: 15px 0px;
+  }
+  div.mega_menu .first_menu:hover {
+    background: #ffffff24;
+    border-radius: 5px;
+  }
+  div.mega_menu .first_menu i {
+    font-size: 80px;
+    height: 70px;
+  }
+  div.mega_menu .first_menu h5 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+  }
+  
+  div.mega_menu .second_menu {
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 3px;
+    padding-bottom: 6px;
+    margin: 10px 0px;
+  }
+  div.mega_menu .second_menu a{
+    color: #aed3e0;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+  }
+  div.mega_menu .second_menu a:hover {
+      color: #efe4ef;
+  }
+  div.mega_menu .second_menu:hover {
+    background: #ffffff24;
+    border-radius: 5px;
+  }
+  div.mega_menu .second_menu i {
+    font-size: 30px;
+    height: 24px;
+   
+  }
+  div.mega_menu .second_menu h5 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    
+  }
+  div.mega_menu .second_menu h5 span i{
+          font-size: 14px;
+       color: #7db77d;
+      font-weight: bold;
+  }
+  
+  div.mega_menu .menu_list {
+    padding: 10px 0px;
+    overflow-y: scroll;
+    scroll-padding-block-start:auto ;
+    max-height: 500px;
+    color: #fff;
+    background: var(--background-color);
+  }
+  div.mega_menu .c-col{
+  padding-left: 5px;
+      padding-right: 5px;
+  }
+
+/* megamenu scrollbar style*/
+div.mega_menu .menu_list::-webkit-scrollbar {
+    width: 10px;
+    padding: 2px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+div.mega_menu .menu_list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+div.mega_menu .menu_list::-webkit-scrollbar-thumb {
+  background-color:var(--dark_background_color);
+  border: 3px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
+}

@@ -1,0 +1,146 @@
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid #1c6786;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+  }
+  .login form {
+    padding: 15px 0px;
+}
+.card-body{
+  padding: 1.25rem;
+}
+.card-header {
+   padding: 1.50rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.login .card-header {
+    padding: 1.50rem 1.25rem;
+    color: white;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.login .card {
+    margin: 0 auto;
+        margin-bottom: 0px;
+    background-color: #ffffffe6;
+    opacity: 0.8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    min-height: 500px;
+    background: linear-gradient(#7f5386, #1c6786);
+    margin-bottom: 0px !important;
+    border-bottom: 0px;
+}
+.row div.card div.card-header {
+    padding: 1.50rem 1.25rem;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.fb_like {
+    position: absolute;
+    bottom: 50px;
+    width: auto;
+}
+#u_0_4{
+   color:white;
+}
+.fb_like iframe body span a{
+    color:white;
+ } 
+h5.mfi_name {
+    font-size: 16px;
+    text-shadow: 1px 2px #c1c3c3;
+    text-align: center;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 18px;
+    line-height: 22px;
+}
+.login .microfinance_logo {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 115px;
+    background-color: #466b5b;
+    padding: 30px;
+        padding-top: 30px;
+    border-radius: 70px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    max-width: 400px;
+    height: 215px;
+    background: linear-gradient(#f9f7f7,#ffffff);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.login .slogan {
+    float: left;
+    margin-top: 20px;
+    line-height: 1.5;
+color: white;
+text-align: left;
+}
+
+.login .logo_slogan .logo {
+    float: left;
+    margin-right: 10px;
+}
+.login .logo_slogan {
+    top: -50px;
+    left: -310px;
+    position: absolute;
+}
+.login {
+    margin: 6% 0px;
+    position: relative;
+    z-index: 1000;
+}
+.submit_button{
+  text-align: center;
+}
+.login .slogan h3 {
+    margin-bottom: 0px;
+    line-height: 14px;
+}
+.login .slogan span {
+    font-size: 10px;
+}
+.login .logo img {
+}
+.login .card-header > span {
+    font-size: 21px;
+    /* font-weight: 700; */
+    /* text-shadow: 2px 2px #ada2a2; */
+}
+.sign_msg{
+    color: white;
+    font-weight: bold;
+    font-size: 14px
+}
+.login_page_bg{
+    background: url("../../../public/img/login_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-left: 15px;
+}

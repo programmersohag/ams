@@ -1,0 +1,560 @@
+    /*
+    Designed by Md Abu Bakar Siddique
+    Software Developer
+    DataSoft Systems Bangladesh Ltd.
+
+    Update by Md. Jalal Uddin Rony
+    Trainee Software Developer
+    DataSoft Systems Bangladesh Ltd.
+
+    /*  @modified by:       Md.Rokibul Hasan
+    *   @modified Date:     28-Sep-2016
+    *   @modified purpose:  Report_print_font_size_configuration
+    *   @issue_no:          Change_Request# 24046 & Bug #25294
+
+
+
+
+    */
+    /* **************** table ************* */
+    body
+    {
+        z-index: 9999;
+    }
+    #table_body{float:left;margin: 0 0 0 3px;}
+    table{padding:0px; margin:0px;}
+    #table_body tr{padding:0px; margin:5px;border:solid;}
+    #table_body th { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#2d2d2d; padding:5px 5px 5px 5px; }
+    #table_body tr td{padding:5px; margin:5px 0px 0px 0px;padding:1px 5px; }
+
+    th{
+        text-align:left;
+        font-size: 12px;
+        font-family: Trebuchet MS;	       	
+        padding-right:  2px;
+        font-weight: bold;
+    }
+
+    thead tr th{
+        text-align:center;
+        font-size: 12px;
+        font-family: Trebuchet MS;	       	
+        padding-right:  2px;
+        font-weight: bold;
+    }
+    td{
+        font-family: Trebuchet MS;
+        font-weight: normal;
+        font-size:11px;
+        padding-right: 1px;
+        margin:0;
+    }
+
+    .report-header{
+        font-family: Trebuchet MS;
+        border-width: 0px;
+        width:100%;
+        text-align:center;
+        font-size: 11px;
+        font-weight: bold;
+
+    }
+
+
+    .report-header-portal{
+        font-family:Trebuchet MS;
+        border-width: 0px;
+        width:60%;
+        text-align:center;
+        font-size: 12.0px;
+        font-family: Arial;
+        font-weight: bold;
+
+    }
+    .report-body{
+
+        border:thin;
+        border-width:1px;
+        border-style:outset;
+        width:100%;
+        text-align:center;
+        font-size: 10.0px;
+        font-family: Trebuchet MS;
+        font-weight: bold;
+    }
+
+    .report-body-portal{
+
+        border:thin;
+        border-width:1px;
+        border-style:outset;
+        width:60%;
+        text-align:center;
+        font-size: 10.0px;
+        font-family:Trebuchet MS;
+        font-weight: bold;
+    }
+
+
+    .body-tbl{
+        border-color: black;
+        border-width: 1px;
+        font-size: .5px;
+        font-family: Trebuchet MS;
+        font-weight: normal;
+        letter-spacing: -.5px;
+    }
+    /*report table header*/
+    .table-header{
+        border: solid;
+        border-width: 5.0px;
+        border-color: black;
+        font-family: Trebuchet MS;
+        font-size:11px;
+        font-weight: bold;
+        background:red;
+        border: 1px solid #000000; 
+
+    }
+    .table-body{
+        border: solid;
+        border-width: 5.0px;
+        border-color: black;
+        font-family: Trebuchet MS;
+        font-size:11px;
+        font-weight: bold;
+        background:yellow;
+        margin: 12px 12px 12px 12px;
+        padding: 3px 3px 3px 3px;
+    }
+
+    .report-footer{
+        width:100%;
+        text-align:left;
+        border-width:0px;
+        border-color:black;
+    }
+    .report-footer-portal{
+
+
+        width:60%; 
+        text-align:center;
+        border-color:black;
+    }
+    .report-footer-margin
+    {
+
+        border-top:solid;
+        border-top-width:thin;
+
+    }
+    .organization-name-po
+    {
+        font-size:20px;
+        font-weight:bold;
+        text-align:center;
+    }
+    .organization-name
+    {
+        font-size:14px;
+        font-weight:bold;
+        text-align:center;
+    }
+    .report-name
+    {
+        font-size:18px;
+        font-weight:bold;
+        text-align:center;
+    }
+
+    .report-sub-name
+    {
+        font-size:13px;
+        font-family: Trebuchet MS;
+        font-weight:bold;
+        text-align:left;
+    }
+
+    .font-bold
+    {
+        font-size:11px;
+        font-weight:800;
+    }
+
+
+    .align-right
+    {
+        text-align:right;
+    }
+
+
+    .align-left
+    {
+        text-align:left;
+
+    }
+
+    .paddingLeft { padding-left:30px; }
+
+    .odd {
+        background-color: #E9E9E9;
+    }
+
+    #acc_reports {
+        border-top:0;
+        border-left:0;
+        border-right:0;
+    }
+    .rth {
+        border:0;
+    }
+    .rtd {
+        border:0;
+    }
+    .div_pad {
+        padding-left:47px;
+    }
+    .th_acc {
+        font-size:12px;
+        font-weight:bold;
+        text-align:left;
+        padding:5px;
+    }
+    .w250 {
+        width:250px;
+    }
+    .w300 {
+        width:300px;
+    }
+    .m10 {
+        margin:10px;
+    }
+    .fl{
+        float:left;
+    }
+    .block{
+        display: block
+    }
+    .rotating  
+    {
+        /* IE-only DX filter */
+        writing-mode: tb-rl;
+        -webkit-writing-mode: tb-rl;
+        -moz-writing-mode: tb-rl;
+        filter: flipv fliph;
+
+        /* Safari/Chrome function */
+        /*-webkit-transform: rotate(270deg);
+
+        -moz-transform: rotate(270deg);*/
+    }
+    .parent_head {
+        color: #000000;
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .acc_th {
+        color: #2D2D2D;
+        font-family: Verdana,Arial,Helvetica,sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px; 
+    }
+    .break{page-break-after:always}
+
+   
+    .parent_head_black {
+        color: #000000;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .parent_head_red {
+        color: #862727;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .padding_left_20{ padding-left:20px; }
+    .padding_left_30{ padding-left:30px; }
+    .padding_left_40{ padding-left:40px; }
+
+    /*---------------- Zohir-----------------*/
+    .th_acc_pr{ background: #e8eaf6; }
+    .th_acc_pr2{ background: #E6E6FA; }
+    .td_acc_head{ color: #A52A2A; }
+    .logo_slogan{
+        color: #96B6D0;
+        float: left;
+        font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+        font-size: 9px;
+        margin-left: 4px;
+    }
+    .padding_left_20{ padding-left:20px; }
+    .padding_left_30{ padding-left:30px; }
+    .padding_left_40{ padding-left:40px; }
+
+    .single_underline{
+        border-bottom: 1px solid;
+    }
+
+    .double_underline{
+        border-bottom: 4px double;
+    }
+    
+    
+    .inside_table tr{ line-height: 18px; }
+    .inside_table table {
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+/*    .inside_table th {
+        padding: 2px 15px;
+    }*/
+    
+    .inside_table th {
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
+        border-right: 1px solid #000;
+        padding-top:1px;
+        padding-bottom:1px;
+    }
+    .inside_table td {
+        border-bottom: 1px solid #cecfd5;
+        border-right: 1px solid #000;
+    }
+    
+/*    .inside_table th:first-child {
+      border-left: 1px solid #000;
+    }
+    .inside_table td:first-child {
+      border-left: 1px solid #000;
+    }*/
+     
+    /*.no_border{ border:none; padding: 0;}*/
+    
+    .inside_table th:last-child, .inside_table td:last-child {
+      border-right: none;
+    }
+/*    .inside_table thead tr:first-child th{
+      border-bottom: none;
+    }*/
+    
+    .top_bottom_border_zero{
+        border-top: none;
+        border-bottom: none;
+    }
+    .marginLeft_5{margin-left:5px}
+
+
+    .th_title{ text-transform:uppercase; text-align:left; }
+    .th_amount{ text-align:right; }
+
+    .th_report_header{
+        /*border: 1px solid #000;*/
+    }
+    .tfoot_td{
+        border: none;
+        border-top: 1px solid #000;
+    }
+
+    .bank_check {
+        /* background: url("../images/bank_check.png") repeat-x scroll left top #265C82; */
+        width: 568px;
+        height: 309px;
+        margin: 0 auto;
+    }
+    .pay_to{
+        float: left;
+        font-size: 15px;
+        margin: 29px 10px 0 70px;
+        width: 429px;
+    }
+    .pay_date{
+        float: left;
+        font-size: 15px;
+        margin: 60px 10px 0 415px;
+        width: 130px;
+    }
+    .amount_word{
+        float: left;
+        font-size: 15px;
+        line-height: 26px;
+        margin: 10px 10px 0 106px;
+        width: 262px;
+    }
+    .amount_number{
+        float: left;
+        font-size: 15px;
+        margin: 24px 0 0 25px;
+        width: 150px;
+    }
+    .acc_report_class{
+        margin: 0 auto;
+        width: 97%;
+    }
+    .no_display{
+        display: none;
+    }
+    .big_error_message{
+        display: none;
+    }
+    @media print{
+        .back_button .no_print{display:none}   
+    }
+
+    table.schedulerView{
+        border: 1px solid #000;
+    }
+    table.schedulerView tr{
+        border-bottom: 1px solid #000  !important;
+    }
+    table.schedulerView td,table.schedulerView th{
+        border-bottom: 1px solid #000  !important;
+    }
+    table.schedulerView th{
+
+        /*border-bottom: 1px solid #000  !important;*/
+    }
+    .report_header_logo{}
+    .text_align_left{text-align: left;}
+    .text_align_right{text-align: right;}
+    .text_align_center{text-align: center;}
+    #header-fixed,big_error_message{display: none}
+
+
+    /************** Start Task #26043****Water Mark show at report print preview page***********/
+
+    #watermark
+    {
+        color:lightgrey;
+        position:absolute;
+        z-index: -9999;
+        transform:  translateX(-50%) translateY(-50%) rotate(310deg);
+        font-size:100px;
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    /**************End Task #26403 *********/
+
+
+    /**************Start style for Report_Print_font_size_configuration*********** */
+    
+    
+    .font_size_10 td,h3{
+        font-size:10px; 
+    }
+    .font_size_11 td,h3{
+        font-size:11px; 
+    }
+    .font_size_12 td,h3{
+        font-size:12px; 
+    }
+    .font_size_13 td,h3{
+        font-size:13px; 
+    }
+    .font_size_14 td,h3{
+        font-size:14px; 
+    }
+    .font_size_15 td,h3{
+        font-size:15px; 
+    }
+      
+
+    /* **************End style for Report_Print_font_size_configuration*************** */
+    
+    .depth1{ padding-left: 0px; }
+    .depth2{ padding-left: 15px; }
+    .depth3{ padding-left: 30px; }
+    .depth4{ padding-left: 45px; }
+    .depth5{ padding-left: 60px; }
+    .depth6{ padding-left: 75px; }
+    .depth7{ padding-left: 90px; }
+    .depth8{ padding-left: 105px; }
+    
+    
+    table#table-all-voucher-print { page-break-inside:avoid }
+    #table-all-voucher-print tr    { page-break-inside:avoid; page-break-after:auto }
+    #table-all-voucher-print thead { display:table-header-group }
+    #table-all-voucher-print tfoot { display:table-footer-group }
+    
+    #table-all-voucher-print tbody td { 
+        border: 1px solid #999;        
+    }
+    #table-all-voucher-print tfoot td { 
+            border: none;
+    }
+    #table-all-voucher-print td tbody td{
+        border: none;
+    }
+    .working_sheet_product_column{
+        width:70px;
+        align:center;
+    }
+
+    /*             added by aminur */
+    .report_div_left{
+        display: block;
+        overflow: hidden;
+        float: left;
+        width: 49%;
+        margin-left: 7px;
+    }
+    .div_acc_reports{padding: 0px 6px;}
+    .header_table{text-align: center;width: 100%;}
+
+    .rotating {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    /*   for report header     */
+
+.report_header_logo{
+    margin-left: 0px;
+    display: inline-block;
+}
+
+.report_header_logo .report_header_img{
+    float:left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.report_header_logo .report_header_content{
+    float:left;
+}
+.report_header_logo .report_header_content h2 {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+#report_container .report-header table tr th, td {
+    padding: .5%;
+}
+#report_container .report-header table thead tr td {
+    padding: .5%;
+}
+
+table tr td {
+    padding: 5px;
+    margin: 5px 0px 0px 0px;
+    padding: 1px 5px;
+}
+#report-container h2{
+    font-weight: bold;
+}
+
+@media print{
+    .break{
+        page-break-after:auto;
+        page-break-before: always;
+    }
+    .vue-print td {
+        border: .1rem solid #868686 !important;
+    }
+}

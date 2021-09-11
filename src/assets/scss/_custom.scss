@@ -1,0 +1,14 @@
+// Here you can add other styles
+@media print{
+	form,.breadcrumb,.card-header,header,.sidebar,.tabs{
+		display:none
+	}
+	/*table th { font-size:7pt;border-top:1pt solid #000;text-align:center}*/
+	#report_container{width:100%;border:none;margin:0 auto}
+	#report_container{width:100%;float:left;border-top:solid 1px #d0d0d0;display:none;}
+	#report_container table td{border:1px solid #000}
+	#report_container .report-header td{border:0}
+	.report-header td,report-header th{border:0}
+	.scroll-report{width:99%;margin: 0 auto}
+}
+.scroll-report{width:100%}
